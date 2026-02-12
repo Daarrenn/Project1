@@ -5,11 +5,13 @@ size (900, 900);
 noStroke ();
 background(105);
 
-//bottom book (blue) cover
+//bbok 1 (blue) cover
 fill (37, 21, 232);
 ellipse (101, 700, 50, 120);
 quad(99, 640, 99, 761, 471, 865, 471, 739);
 quad(99, 640, 471, 739, 674, 646, 300, 575);
+
+//book 1 cover details
 stroke(19, 46, 173);
 strokeWeight (7);
 line(200, 670, 471, 739);
@@ -28,6 +30,8 @@ fill(205);
 noStroke ();
 ellipse (474, 796, 40, 110);
 quad(660, 660, 474, 741, 479, 850, 660, 762);
+
+//page details
 strokeWeight(6);
 stroke(180);
 line(657, 706, 561, 747); 
@@ -39,6 +43,8 @@ fill(237, 188, 24);
 ellipse(600, 600, 45, 110);
 quad(600, 655, 600, 545, 300, 613, 300, 733);
 quad(600, 545, 307, 615, 90, 561, 378, 500);
+
+//book 2 cover details
 stroke(203, 162, 8);
 strokeWeight(7);
 line(360, 608, 580, 562);
@@ -56,6 +62,8 @@ noStroke();
 fill(218);
 ellipse(300, 670, 35, 100);
 quad(300, 620, 300, 720, 105, 672, 105, 574);
+
+//page details
 strokeWeight(5);
 stroke (179);
 line(107, 591, 234, 622);
@@ -64,4 +72,37 @@ line(107, 632, 187, 652);
 //owl body
 fill (76, 170, 39);
 noStroke ();
-ellipse(370, 460, 260, 290);
+ellipse(370, 460, 260, 250);
+rect(240, 250, 260, 300, 60, 60, 90, 90);
+
+
+//owl leg left 
+pushMatrix();
+translate(340, 555);
+rotate( radians(-26) );
+fill(255, 150, 44);
+rect(-25, -40, 50, 80, 50);
+popMatrix();
+
+//owl leg right
+pushMatrix();
+translate(485, 555);
+rotate( radians(26) );
+fill(255, 150, 44);
+rect(-25, -40, 50, 80, 50);
+popMatrix();
+
+
+//owl wing left
+//top
+fill (76, 170, 39);
+triangle(188, 518, 240, 390, 300, 500);
+//bottom
+pushMatrix();
+translate(235, 500);
+rotate( radians(155) );
+fill(64, 144, 54);
+ellipse(10, -7, 90, 35);
+fill (76, 170, 39);
+ellipse(0, 0, 100, 40);
+popMatrix();
