@@ -75,6 +75,35 @@ noStroke ();
 ellipse(370, 460, 260, 250);
 rect(240, 250, 260, 300, 60, 60, 90, 90);
 
+//owl wing left
+//top
+fill (76, 170, 39);
+triangle(188, 518, 240, 390, 300, 500);
+//bottom
+pushMatrix();
+translate(235, 500);
+rotate( radians(155) );
+fill(64, 144, 54);
+ellipse(10, -5, 90, 40);
+fill (76, 170, 39);
+ellipse(0, 0, 100, 40);
+popMatrix();
+
+
+//owl wing right
+//top
+fill(76, 170, 39);
+triangle(542, 518, 500, 390, 300, 500);
+
+//bottom
+pushMatrix();
+translate(495, 500);
+rotate( radians(-155) );
+fill(64, 144, 54);
+ellipse(-10, -5, 90, 35);
+fill (76, 170, 39);
+ellipse(0, 0, 100, 40);
+popMatrix();
 
 //owl leg left 
 pushMatrix();
@@ -90,19 +119,4 @@ translate(485, 555);
 rotate( radians(26) );
 fill(255, 150, 44);
 rect(-25, -40, 50, 80, 50);
-popMatrix();
-
-
-//owl wing left
-//top
-fill (76, 170, 39);
-triangle(188, 518, 240, 390, 300, 500);
-//bottom
-pushMatrix();
-translate(235, 500);
-rotate( radians(155) );
-fill(64, 144, 54);
-ellipse(10, -7, 90, 35);
-fill (76, 170, 39);
-ellipse(0, 0, 100, 40);
 popMatrix();
