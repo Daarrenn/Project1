@@ -75,6 +75,12 @@ noStroke ();
 ellipse(370, 460, 260, 250);
 rect(240, 250, 260, 300, 60, 60, 90, 90);
 
+//head
+fill(105);
+ellipse(370, 240, 140, 70);
+fill (76, 170, 39);
+ellipse(298, 280, 90, 60);
+ellipse(443, 280, 90, 60);
 //owl wing left
 //top
 fill (76, 170, 39);
