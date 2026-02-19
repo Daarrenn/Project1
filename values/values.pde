@@ -105,8 +105,6 @@ triangle(542, 518, 500, 390, 300, 500);
 pushMatrix();
 translate(495, 500);
 rotate( radians(-155) );
-fill(64, 144, 54);
-ellipse(-10, -5, 90, 35);
 fill (76, 170, 39);
 ellipse(0, 0, 100, 40);
 popMatrix();
@@ -126,3 +124,15 @@ rotate( radians(26) );
 fill(255, 150, 44);
 rect(-25, -40, 50, 80, 50);
 popMatrix();
+
+//owl face
+//face markings
+fill(124, 227, 57);
+rect(305, 300, 78, 100, 50);
+rect(410, 300, 78, 100, 50);
+
+//beak
+fill(255, 138, 21);
+ellipse(397, 384, 37, 25);
+fill(242, 178, 49);
+ellipse(399, 375, 45, 25);
