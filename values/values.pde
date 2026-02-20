@@ -3,7 +3,7 @@
 // Drawing on your values
 size (900, 900);
 noStroke ();
-background(105);
+background(176, 234, 175);
 
 //bbok 1 (blue) cover
 fill (37, 21, 232);
@@ -26,7 +26,7 @@ line(472, 858, 670, 765);
 line(670, 765, 660, 762);
 
 // book 1 pages
-fill(205);
+fill(240);
 noStroke ();
 ellipse (474, 796, 40, 110);
 quad(660, 660, 474, 741, 479, 850, 660, 762);
@@ -59,7 +59,7 @@ triangle(105, 672, 99, 669, 107, 664);
 
 //book 2 pages
 noStroke();
-fill(218);
+fill(240);
 ellipse(300, 670, 35, 100);
 quad(300, 620, 300, 720, 105, 672, 105, 574);
 
@@ -76,11 +76,12 @@ ellipse(370, 460, 260, 250);
 rect(240, 250, 260, 300, 60, 60, 90, 90);
 
 //head
-fill(105);
+fill(176, 234, 175);
 ellipse(370, 240, 140, 70);
 fill (76, 170, 39);
 ellipse(298, 280, 90, 60);
 ellipse(443, 280, 90, 60);
+
 //owl wing left
 //top
 fill (76, 170, 39);
@@ -100,7 +101,6 @@ popMatrix();
 //top
 fill(76, 170, 39);
 triangle(542, 518, 500, 390, 300, 500);
-
 //bottom
 pushMatrix();
 translate(495, 500);
@@ -126,7 +126,6 @@ rect(-25, -40, 50, 80, 50);
 popMatrix();
 
 //owl face:
-
 //face markings
 fill(124, 227, 57);
 rect(350, 320, 100, 50);
@@ -152,9 +151,9 @@ fill(255);
 circle(339, 330, 17);
 pushMatrix();
 fill(124, 227, 57);
-translate(350, 340);
-rotate(radians(12));
-arc(0, 0, 50, 50, 0, PI);
+translate(350, 350);
+rotate(radians(9));
+arc(0, 0, 70, 70, 0, PI);
 popMatrix();
 //right
 fill(255);
@@ -163,3 +162,9 @@ fill(0);
 rect(442, 324, 30, 43, 100000000);
 fill(255);
 circle(444, 330, 17);
+pushMatrix();
+fill(124, 227, 57);
+translate(453, 350);
+rotate(radians(-9));
+arc(0, 0, 70, 70, 0, PI);
+popMatrix();
