@@ -5,6 +5,7 @@ size (900, 900);
 noStroke ();
 background(54, 226, 255);
 
+//text
 PFont font;
 font = createFont("AkaylaScript_PERSONAL.ttf", 100);
 textAlign(CENTER, CENTER);
@@ -81,6 +82,8 @@ fill (76, 170, 39);
 noStroke ();
 ellipse(370, 460, 260, 250);
 rect(240, 250, 260, 300, 60, 60, 90, 90);
+//body details
+
 
 //head
 fill(54, 226, 255);
