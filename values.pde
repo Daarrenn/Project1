@@ -82,8 +82,6 @@ fill (76, 170, 39);
 noStroke ();
 ellipse(370, 460, 260, 250);
 rect(240, 250, 260, 300, 60, 60, 90, 90);
-//body details
-
 
 //head
 fill(54, 226, 255);
@@ -134,6 +132,12 @@ rotate( radians(26) );
 fill(255, 150, 44);
 rect(-25, -40, 50, 80, 50);
 popMatrix();
+
+//body details
+fill(124, 227, 57);
+arc(365, 450, 40, 30, 0, PI);
+arc(435, 450, 40, 30, 0, PI);
+arc(400, 480, 40, 30, 0, PI);
 
 //owl face:
 //face markings
